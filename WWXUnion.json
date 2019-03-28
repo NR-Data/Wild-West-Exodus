@@ -1,0 +1,1252 @@
+{
+  "catalogue": {
+    "name": "Union",
+    "id": "f77113b2-f4a8-60ed-5054-e6a7b0681de8",
+    "authorName": "Egregious",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "9b21e8c8-31b6-82f0-9805-ad62649f1f3d",
+    "gameSystemRevision": 1,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Abraham Lincoln",
+        "id": "73bef594-3f63-b6b6-3598-6df8ad839501",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "73bef594-3f63-b6b6-3598-6df8ad839501-bb13102f-3892-8dee-86a7-b716bdf0f2b2", "primary": true, "targetId": "bb13102f-3892-8dee-86a7-b716bdf0f2b2"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 230}],
+        "profiles": [
+          {
+            "name": "Abraham Lincoln",
+            "id": "e4f35de6-50cf-bbc2-8f8f-03cfff9a91e2",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "24", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "3", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "2.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "6", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "3", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "4+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "3+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "3", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "3", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "1+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Agent Henry Courtright",
+        "id": "a9a434b6-b5a3-5a8e-e957-5fd61a0d5b29",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "a9a434b6-b5a3-5a8e-e957-5fd61a0d5b29-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 75}],
+        "profiles": [
+          {
+            "name": "Agent Courtright",
+            "id": "e9dc265d-a94c-e399-0f0c-efb487ef46e8",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "12", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "1", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "0.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "4+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "2", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "4+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Agent Lucinda Loveless",
+        "id": "76ddcd37-5c55-1fa6-3fff-a0439880aeb6",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "76ddcd37-5c55-1fa6-3fff-a0439880aeb6-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 100}],
+        "profiles": [
+          {
+            "name": "Agent Lucinda Loveless",
+            "id": "cf94fdc8-3bba-10ac-ad98-6348a30a1d06",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "14", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "1", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "6", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "3", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "4+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "5+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "4+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Armored Guard Close Combat",
+        "id": "0740e581-d965-227a-b103-094bb8135000",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "0740e581-d965-227a-b103-094bb8135000-b6cb35d8-a279-801b-f50a-00831e2a318f", "primary": true, "targetId": "b6cb35d8-a279-801b-f50a-00831e2a318f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 25}],
+        "profiles": [
+          {
+            "name": "Armored Guard Close Combat",
+            "id": "b54af3d5-290a-8f9a-ef30-ce098ffe3a80",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "7", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "2\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "6+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "5+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "2", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "5+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Armored Guard Long Range",
+        "id": "c8bac205-a529-1b2d-ce46-c6ba71d73978",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "c8bac205-a529-1b2d-ce46-c6ba71d73978-b6cb35d8-a279-801b-f50a-00831e2a318f", "primary": true, "targetId": "b6cb35d8-a279-801b-f50a-00831e2a318f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 30}],
+        "profiles": [
+          {
+            "name": "Armored Guard Long Range",
+            "id": "b8c4c849-81a0-2153-afc7-2a7e909aac50",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "7", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "7+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "2", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "5+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Captain Sheridan",
+        "id": "318632be-6385-b2a2-2939-14455aefe210",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "318632be-6385-b2a2-2939-14455aefe210-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 85}],
+        "profiles": [
+          {
+            "name": "Captain Sheridan",
+            "id": "ab823c18-2bb7-a326-eeff-2d7e5c6156a4",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "12", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "1", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "2\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "4+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Carl Fredrickson",
+        "id": "23372efd-0796-fac7-e66f-644988b427e1",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "23372efd-0796-fac7-e66f-644988b427e1-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 155}],
+        "profiles": [
+          {
+            "name": "Carl Fredrickson",
+            "id": "9fbd12a7-2a50-1317-2a10-5c3fc00490f4",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "13", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "1", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "6+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "2", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "4+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Council Member",
+        "id": "928e5f73-b9ef-7101-1df7-bfab4440b211",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "928e5f73-b9ef-7101-1df7-bfab4440b211-b6cb35d8-a279-801b-f50a-00831e2a318f", "primary": true, "targetId": "b6cb35d8-a279-801b-f50a-00831e2a318f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 35}],
+        "profiles": [
+          {
+            "name": "Dark Council Member",
+            "id": "294b1b99-c4bf-7532-2017-f478971a35c7",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "-", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "1", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "-", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "7", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "0", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "0", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "0", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "0", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "1+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dr. Tumblety",
+        "id": "1286709c-109c-facf-d896-ea3ab55caceb",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "1286709c-109c-facf-d896-ea3ab55caceb-57028528-1aa2-280c-827e-779692be7f29", "primary": true, "targetId": "57028528-1aa2-280c-827e-779692be7f29"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 175}],
+        "profiles": [
+          {
+            "name": "Dr. Tumblety",
+            "id": "1e32316d-cfe9-e67c-3c7e-5ae54d334295",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "16", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "3", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "6+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "7+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "5+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "General Grant",
+        "id": "2db14ad4-fdfe-c481-aa02-3e7fcefe70d6",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "2db14ad4-fdfe-c481-aa02-3e7fcefe70d6-bb13102f-3892-8dee-86a7-b716bdf0f2b2", "primary": true, "targetId": "bb13102f-3892-8dee-86a7-b716bdf0f2b2"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 205}],
+        "profiles": [
+          {
+            "name": "General Grant",
+            "id": "14139cea-b6da-b4ca-f6d3-93ddd5c9add0",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "20", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "4", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "2\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "3", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "4+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "5+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "3", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "3", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "2+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "George Custer",
+        "id": "6be1b484-010f-8cb0-c5c1-7610b2cd04a3",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "6be1b484-010f-8cb0-c5c1-7610b2cd04a3-57028528-1aa2-280c-827e-779692be7f29", "primary": true, "targetId": "57028528-1aa2-280c-827e-779692be7f29"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 150}],
+        "profiles": [
+          {
+            "name": "George Custer",
+            "id": "8a9dfa90-222e-d05f-429e-f4c9ff120bf4",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "16", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "2", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "2\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "5+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "2", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "2+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ironhide",
+        "id": "282e2168-9415-d56f-2e9f-71c78552cce6",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "282e2168-9415-d56f-2e9f-71c78552cce6-fd33a4c4-f613-0986-fc08-8eaf763a675d", "primary": true, "targetId": "fd33a4c4-f613-0986-fc08-8eaf763a675d"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 175}],
+        "profiles": [
+          {
+            "name": "Ironhide",
+            "id": "28ceccd7-5f1f-f238-496c-4cfd44015125",
+            "hidden": false,
+            "page": 0,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "characteristics": [
+              {"name": "Power Source Structure Points", "$text": "5", "typeId": "505622a7-acf6-8ab1-5fa1-d9539b77568b"},
+              {"name": "Weapons Structure Points", "$text": "6", "typeId": "25d9931b-99b0-bd3c-0330-d5af91118362"},
+              {"name": "Propulsion Structure Points", "$text": "11", "typeId": "5219b907-a65b-8cc5-6a28-b0345856632a"},
+              {"name": "Quickness", "$text": "8", "typeId": "91c497a0-33d3-2dd7-f676-ae8da76f0337"},
+              {"name": "Action Points", "$text": "2", "typeId": "32e842f6-a4b7-7368-00ce-e02507a387a0"},
+              {"name": "Marksmanship", "$text": "7+", "typeId": "7452c199-3081-37b0-85c6-2518d7cb8409"},
+              {"name": "Armor", "$text": "5", "typeId": "bda3d809-e68c-f81f-8e28-056b093355fc"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Gatling Guns",
+            "id": "4c6c3e5e-8670-4678-5add-842a70cb4f1a",
+            "collective": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 20}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "6162b37f-8fea-0f93-ff6f-74c4d23715ab", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "269cf4a0-bad5-f24b-eb60-5810e412b01d", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Mini Cannons",
+            "id": "269cf4a0-bad5-f24b-eb60-5810e412b01d",
+            "collective": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 40}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "4c6c3e5e-8670-4678-5add-842a70cb4f1a", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "6162b37f-8fea-0f93-ff6f-74c4d23715ab", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Limited Rocket Pods",
+            "id": "6162b37f-8fea-0f93-ff6f-74c4d23715ab",
+            "collective": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 60}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "4c6c3e5e-8670-4678-5add-842a70cb4f1a", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "269cf4a0-bad5-f24b-eb60-5810e412b01d", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Line Troop Close Combat",
+        "id": "e2fa560b-5792-3946-3a7a-63ead8992313",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "e2fa560b-5792-3946-3a7a-63ead8992313-b6cb35d8-a279-801b-f50a-00831e2a318f", "primary": true, "targetId": "b6cb35d8-a279-801b-f50a-00831e2a318f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+        "profiles": [
+          {
+            "name": "Line Troop Close Combat",
+            "id": "abf948b9-d533-319f-5cb9-1aa69f1145cc",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "6", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "2\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "7+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "6+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Line Troop Heavy Weapon (Gatling Gun)",
+        "id": "da7f7474-a93e-4f4d-1160-5aa028f0eaa1",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "da7f7474-a93e-4f4d-1160-5aa028f0eaa1-dfe607a5-ffa5-9768-b16d-bf62ae315f55", "primary": true, "targetId": "dfe607a5-ffa5-9768-b16d-bf62ae315f55"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 50}],
+        "profiles": [
+          {
+            "name": "Line Troop Heavy Weapon (Gatling Gun)",
+            "id": "12ab1884-68b9-fdb9-5da9-9d9c41ab56fe",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "6", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "0.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "6+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Line Troop Heavy Weapon (Rocket Pod)",
+        "id": "34ba6658-41d3-2b0b-e050-e8586e102ab6",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "34ba6658-41d3-2b0b-e050-e8586e102ab6-dfe607a5-ffa5-9768-b16d-bf62ae315f55", "primary": true, "targetId": "dfe607a5-ffa5-9768-b16d-bf62ae315f55"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 60}],
+        "profiles": [
+          {
+            "name": "Line Troop Heavy Weapon (Rocket Pod)",
+            "id": "7e59a5aa-477d-5673-ceda-fc71d9ff5a6e",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "6", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "0.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "6+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Line Troop Long Range",
+        "id": "46f6815f-bf6f-0fa0-5cb6-18d9cbb48579",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "46f6815f-bf6f-0fa0-5cb6-18d9cbb48579-b6cb35d8-a279-801b-f50a-00831e2a318f", "primary": true, "targetId": "b6cb35d8-a279-801b-f50a-00831e2a318f"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 20}],
+        "profiles": [
+          {
+            "name": "Line Troop Long Range",
+            "id": "afbd9a3a-fe9d-1b02-696e-ebfaf039465f",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "6", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "6+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "8+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "6+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Locust",
+        "id": "d998305a-d6d5-947f-1d2e-e2e3c05c95b7",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "d998305a-d6d5-947f-1d2e-e2e3c05c95b7-dfe607a5-ffa5-9768-b16d-bf62ae315f55", "primary": true, "targetId": "dfe607a5-ffa5-9768-b16d-bf62ae315f55"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 140}],
+        "profiles": [
+          {
+            "name": "Locust",
+            "id": "b7da1e6d-8db6-0f72-b908-4d7415b6a855",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "15", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "0.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "6+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "8+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "4", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "3+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Major Sherman",
+        "id": "0f0be142-13c4-b919-cfc6-94e5bbcab8f6",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "0f0be142-13c4-b919-cfc6-94e5bbcab8f6-57028528-1aa2-280c-827e-779692be7f29", "primary": true, "targetId": "57028528-1aa2-280c-827e-779692be7f29"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 165}],
+        "profiles": [
+          {
+            "name": "Major Sherman",
+            "id": "dee79d1c-7489-561a-9d28-077f090472e4",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "16", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "2", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "4+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "2", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "2", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "2+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Merc - Booby Trap",
+        "id": "227aaf94-70be-c185-416d-3f1f30bf9605",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "227aaf94-70be-c185-416d-3f1f30bf9605-b6cb35d8-a279-801b-f50a-00831e2a318f", "primary": true, "targetId": "b6cb35d8-a279-801b-f50a-00831e2a318f"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 10}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+        "profiles": [
+          {
+            "name": "Merc - Booby Trap",
+            "id": "90483e85-40e8-5a86-c955-c80495aa0e2c",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "1", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "-", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "2\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "-", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "-", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "-", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "-", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "-", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "-", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "-", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "May Upgrade Booby Trap:",
+            "id": "5d748b92-d15f-fa32-3a1c-3c0d710de387",
+            "collective": false,
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "selectionEntries": [
+              {
+                "name": "RJ-1027 IED",
+                "id": "0f2baa35-7496-42aa-2c2f-be4de8dcdcce",
+                "collective": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+                  {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 10}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 5}]
+              },
+              {
+                "name": "TNT Barrel Upgrade",
+                "id": "a85d9463-3581-bc61-baad-470501c98524",
+                "collective": false,
+                "page": 0,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+                  {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 10}
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 5}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Merc - Jake Mattia",
+        "id": "df8195ad-8829-890a-a0e9-d66d14ea41aa",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "df8195ad-8829-890a-a0e9-d66d14ea41aa-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 125}],
+        "profiles": [
+          {
+            "name": "Merc - Jake Mattia",
+            "id": "cf943953-51f4-51a1-f927-803ea27fd78d",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "12", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "4", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "3", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "4+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Merc - K-Free",
+        "id": "e73f9419-df9b-4ef2-1cfa-9eeaca537657",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "e73f9419-df9b-4ef2-1cfa-9eeaca537657-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 50}],
+        "profiles": [
+          {
+            "name": "Merc - K-Free",
+            "id": "089ddb59-dbd4-ea8f-9e2f-cec0c3cc55bd",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "9", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "8+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "4+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Merc - Marcus Cunningham",
+        "id": "6d89ea19-76ef-b35f-8706-20697fdc8541",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "6d89ea19-76ef-b35f-8706-20697fdc8541-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 125}],
+        "profiles": [
+          {
+            "name": "Merc - Marcus Cunningham",
+            "id": "79abce06-bdcb-0364-e154-0a69e363771a",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "16", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "3", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "2.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "8+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "4+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "2", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "2", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "3+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Merc - Sasha Tanner",
+        "id": "7bb7669c-6288-1c4e-f8c3-d916effb756d",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "7bb7669c-6288-1c4e-f8c3-d916effb756d-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 115}],
+        "profiles": [
+          {
+            "name": "Merc - Sasha Tanner",
+            "id": "c10fbab6-ac58-0f42-def1-c2573a0ddb5f",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "12", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "1", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "2\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "3", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "6+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "4+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "3", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "4+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Merc - Sierra Icarus",
+        "id": "b174cfea-9d4b-8882-f1d4-334fd6e835b4",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "b174cfea-9d4b-8882-f1d4-334fd6e835b4-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 105}],
+        "profiles": [
+          {
+            "name": "Merc - Sierra Icarus",
+            "id": "7f122831-cc28-d920-cc1a-fc854244c004",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "9", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "1", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "6", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "4+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "7+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "0", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "4+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Merc - The Wraith",
+        "id": "c0c56e2d-233c-95af-8ccc-014c1a71322c",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "c0c56e2d-233c-95af-8ccc-014c1a71322c-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 140}],
+        "profiles": [
+          {
+            "name": "Merc - The Wraith",
+            "id": "026b9415-7ba8-8afa-2a99-fce5c2f3fa56",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "15", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "1", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "4+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "7+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "2", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "4+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Merc - Thomas Tate Tobin",
+        "id": "6c65c77b-1bd3-68bc-f687-bcd28feeac54",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "6c65c77b-1bd3-68bc-f687-bcd28feeac54-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 140}],
+        "profiles": [
+          {
+            "name": "Merc - Thomas Tate Tobin",
+            "id": "3489172a-599b-3ebe-23c5-2fc409d5158f",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "15", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "3", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "6", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "5+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "2", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "2", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "3+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikola Tesla",
+        "id": "903a9572-9401-10ca-ccf2-485fe97bc598",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "903a9572-9401-10ca-ccf2-485fe97bc598-bb13102f-3892-8dee-86a7-b716bdf0f2b2", "primary": true, "targetId": "bb13102f-3892-8dee-86a7-b716bdf0f2b2"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 240}],
+        "profiles": [
+          {
+            "name": "Nikola Tesla",
+            "id": "9c7258f9-c1b2-3aa2-476c-189302c1e993",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "20", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "4", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "4", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "3", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "5+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "4", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "1+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Robert Pinkerton",
+        "id": "6d4d1cdf-cfd1-3491-7cde-37fed4091317",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "6d4d1cdf-cfd1-3491-7cde-37fed4091317-57028528-1aa2-280c-827e-779692be7f29", "primary": true, "targetId": "57028528-1aa2-280c-827e-779692be7f29"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 140}],
+        "profiles": [
+          {
+            "name": "Robert Pinkerton",
+            "id": "b4bafae2-6222-41aa-7141-e3596bec9595",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "14", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "1", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "0.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "4+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "7+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "2", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "4+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rolling Thunder",
+        "id": "2fd551f0-aeb9-d9f1-03c7-ccb2c4776472",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "2fd551f0-aeb9-d9f1-03c7-ccb2c4776472-fd33a4c4-f613-0986-fc08-8eaf763a675d", "primary": true, "targetId": "fd33a4c4-f613-0986-fc08-8eaf763a675d"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 275}],
+        "profiles": [
+          {
+            "name": "Rolling Thunder",
+            "id": "45e6507a-0c2c-c73c-8f58-ed5e234763d2",
+            "hidden": false,
+            "page": 0,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "characteristics": [
+              {"name": "Power Source Structure Points", "$text": "6", "typeId": "505622a7-acf6-8ab1-5fa1-d9539b77568b"},
+              {"name": "Weapons Structure Points", "$text": "14", "typeId": "25d9931b-99b0-bd3c-0330-d5af91118362"},
+              {"name": "Propulsion Structure Points", "$text": "8", "typeId": "5219b907-a65b-8cc5-6a28-b0345856632a"},
+              {"name": "Quickness", "$text": "5", "typeId": "91c497a0-33d3-2dd7-f676-ae8da76f0337"},
+              {"name": "Action Points", "$text": "2", "typeId": "32e842f6-a4b7-7368-00ce-e02507a387a0"},
+              {"name": "Marksmanship", "$text": "6+", "typeId": "7452c199-3081-37b0-85c6-2518d7cb8409"},
+              {"name": "Armor", "$text": "8", "typeId": "bda3d809-e68c-f81f-8e28-056b093355fc"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sergeant Hopkins",
+        "id": "f016edaf-48f3-7acd-9105-7f5f5f715e44",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "f016edaf-48f3-7acd-9105-7f5f5f715e44-a7679099-570d-b13a-6d81-bcfd58d2b86c", "primary": true, "targetId": "a7679099-570d-b13a-6d81-bcfd58d2b86c"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 1}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 110}],
+        "profiles": [
+          {
+            "name": "Sergeant Hopkins",
+            "id": "72e34148-a81e-5bee-598a-a796279e61a6",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "13", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "1", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "1\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "4+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "3", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "2+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Union Iron Horse",
+        "id": "d158871f-1007-c054-d313-5b425e965638",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "d158871f-1007-c054-d313-5b425e965638-dfe607a5-ffa5-9768-b16d-bf62ae315f55", "primary": true, "targetId": "dfe607a5-ffa5-9768-b16d-bf62ae315f55"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 70}],
+        "profiles": [
+          {
+            "name": "Outlaw Iron Horse",
+            "id": "eeda26a7-7ef9-55c0-8e5e-e8237c3bc522",
+            "hidden": false,
+            "page": 0,
+            "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+            "characteristics": [
+              {"name": "Lifeblood", "$text": "12", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+              {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+              {"name": "Halo", "$text": "0.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+              {"name": "Quickness", "$text": "9", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+              {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+              {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+              {"name": "Physical Ability", "$text": "5+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+              {"name": "Strikes", "$text": "2", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+              {"name": "Armor", "$text": "2", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+              {"name": "Courage", "$text": "5+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Gatling Guns",
+            "id": "8728fd7f-e69b-abca-23e6-f5771293f7ee",
+            "collective": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "5c4182b8-ac37-bf58-678d-bd24a25c6496", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "97aea74a-3655-405f-e685-274343832702", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Mini Cannons",
+            "id": "5c4182b8-ac37-bf58-678d-bd24a25c6496",
+            "collective": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 20}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "97aea74a-3655-405f-e685-274343832702", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "8728fd7f-e69b-abca-23e6-f5771293f7ee", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Rocket Pods",
+            "id": "97aea74a-3655-405f-e685-274343832702",
+            "collective": false,
+            "page": 0,
+            "type": "upgrade",
+            "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "points", "value": 25}],
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "8728fd7f-e69b-abca-23e6-f5771293f7ee", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              },
+              {
+                "field": "maxSelections",
+                "type": "set",
+                "value": 0,
+                "repeats": [{"childId": "5c4182b8-ac37-bf58-678d-bd24a25c6496", "field": "selections", "repeats": 1, "scope": "parent", "shared": true, "value": 1}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Free Line Troop Heavy Weapon",
+        "id": "baa70eff-0307-6396-e671-5e48275d959b",
+        "collective": false,
+        "page": 0,
+        "type": "model",
+        "categoryLinks": [{"id": "baa70eff-0307-6396-e671-5e48275d959b-814d6be6-0994-87ea-0c48-7b177665d45f", "primary": true, "targetId": "814d6be6-0994-87ea-0c48-7b177665d45f"}],
+        "constraints": [{"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "type": "max", "value": 0}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+        "modifiers": [
+          {
+            "field": "maxInRoster",
+            "type": "increment",
+            "value": 1,
+            "repeats": [
+              {
+                "childId": "e2fa560b-5792-3946-3a7a-63ead8992313",
+                "field": "selections",
+                "includeChildSelections": true,
+                "repeats": 1,
+                "scope": "roster",
+                "shared": true,
+                "value": 10
+              }
+            ]
+          },
+          {
+            "field": "maxInRoster",
+            "type": "increment",
+            "value": 1,
+            "repeats": [
+              {
+                "childId": "46f6815f-bf6f-0fa0-5cb6-18d9cbb48579",
+                "field": "selections",
+                "includeChildSelections": true,
+                "repeats": 1,
+                "scope": "roster",
+                "shared": true,
+                "value": 10
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Choose Weapon Option:",
+            "id": "7e040466-f04b-73e0-29c7-39959fe3d9b6",
+            "collective": false,
+            "constraints": [
+              {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 1},
+              {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Line Troop Heavy Weapon (Gatling Gun)",
+                "id": "fd191219-71ca-1d30-26f7-172e75841a28",
+                "collective": false,
+                "page": 0,
+                "type": "model",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Line Troop Heavy Weapon (Gatling Gun)",
+                    "id": "e6cd46fe-4742-492a-407a-8dd5d204440c",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+                    "characteristics": [
+                      {"name": "Lifeblood", "$text": "6", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+                      {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+                      {"name": "Halo", "$text": "0.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+                      {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+                      {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+                      {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+                      {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+                      {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+                      {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+                      {"name": "Courage", "$text": "6+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Line Troop Heavy Weapon (Rocket Pod)",
+                "id": "7e10c88d-819a-a64d-8e7d-4766c9e3db30",
+                "collective": false,
+                "page": 0,
+                "type": "model",
+                "constraints": [{"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Line Troop Heavy Weapon (Rocket Pod)",
+                    "id": "fe997552-4927-675b-38c7-c1b03bbbec54",
+                    "hidden": false,
+                    "page": 0,
+                    "typeId": "67554ae9-9594-5a4d-5b19-38f7f3a717ed",
+                    "characteristics": [
+                      {"name": "Lifeblood", "$text": "6", "typeId": "3af28f20-07ae-12ea-d3b3-653dbb2f7f5d"},
+                      {"name": "Influence", "$text": "0", "typeId": "62f8ac54-d70a-a38d-64c4-cf0684b54761"},
+                      {"name": "Halo", "$text": "0.5\"", "typeId": "3409c1f2-79dd-d813-07e0-ebf6ead50b96"},
+                      {"name": "Quickness", "$text": "5", "typeId": "8676af4f-c377-0474-7e00-a60d31699416"},
+                      {"name": "Action Points", "$text": "2", "typeId": "5336d55e-3dea-3eaf-5c2d-349d108e1150"},
+                      {"name": "Marksmanship", "$text": "5+", "typeId": "ad89e631-77a3-2fca-d75f-699b7e123d74"},
+                      {"name": "Physical Ability", "$text": "6+", "typeId": "ae4ddf53-29f9-68ec-848c-3041fa5ef074"},
+                      {"name": "Strikes", "$text": "1", "typeId": "260f8bf8-5dac-6983-81f2-3a0625d4f397"},
+                      {"name": "Armor", "$text": "1", "typeId": "2ac82bf9-f25b-c383-be8f-16e8a39921a1"},
+                      {"name": "Courage", "$text": "6+", "typeId": "d6531caa-2df0-0aba-54d0-36088eda208d"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
