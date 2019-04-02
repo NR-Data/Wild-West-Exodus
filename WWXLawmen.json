@@ -1,0 +1,617 @@
+{
+  "catalogue": {
+    "name": "Lawmen",
+    "id": "ceecb107-d853-af87-f466-c746c1cce2d8",
+    "authorName": "Egregious",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "9b21e8c8-31b6-82f0-9805-ad62649f1f3d",
+    "gameSystemRevision": 1,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Wild Bill Hickok",
+        "id": "3f26-ffd3-9c6a-d955",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bosses", "id": "a15f-cd01-546b-03ed", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Human", "id": "6432-6761-1775-1e96", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Male", "id": "d314-9dd6-c4b8-b00a", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Marshal", "id": "63f9-e6f3-ca7d-dc98", "hidden": false, "primary": false, "targetId": "7b06-f42c-c91b-23cc"},
+          {"name": "Ranger", "id": "0803-4418-0db0-0d81", "hidden": false, "primary": false, "targetId": "af73-24ff-7b2e-f77e"},
+          {"name": "Lawmen", "id": "e650-ae5f-6a7d-8680", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"}
+        ],
+        "constraints": [
+          {
+            "id": "7923-9125-1fe6-c8f2",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 220}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "270d-8838-bdb9-93be", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "d278-4452-334e-1274", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Largesse", "id": "606b-f259-3b5b-c6a1", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Target Priority", "id": "4c97-e2b5-95c4-26bd", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"},
+          {"name": "Trailfinder", "id": "9f43-a4b7-4594-fe52", "hidden": false, "targetId": "bf15-949d-58d8-8a65", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Wild Bill Hickok",
+            "id": "955c-eb6c-0077-43b1",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "6", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "4", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "7", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "6", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "6", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "3", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Helena Miller",
+        "id": "d206-61a3-be8f-346d",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Agent", "id": "0845-ea9b-bc6b-b0eb", "hidden": false, "primary": false, "targetId": "c347-37dc-aaf8-726f"},
+          {"name": "Bosses", "id": "a451-3499-eb03-19cb", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Female", "id": "8101-2dc2-a62f-4a1e", "hidden": false, "primary": false, "targetId": "3620-2a28-c3fe-9a53"},
+          {"name": "Flight", "id": "c4f8-c42a-c02f-b531", "hidden": false, "primary": false, "targetId": "241a-588b-b3d8-3ee0"},
+          {"name": "Human", "id": "c659-caef-6e9e-e416", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Infernal", "id": "3188-194a-dcea-8554", "hidden": false, "primary": false, "targetId": "85e0-55ab-53bb-0d0b"},
+          {"name": "Lawmen", "id": "b9aa-7dbe-087b-0118", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Marshal", "id": "a295-5c82-db8a-bca7", "hidden": false, "primary": false, "targetId": "7b06-f42c-c91b-23cc"},
+          {"name": "Affairs", "id": "dd8f-5eba-1332-f397", "hidden": false, "primary": false, "targetId": "f9c9-27a8-7c17-a780"}
+        ],
+        "constraints": [
+          {
+            "id": "061c-8e7f-9d2d-1f89",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 225}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "f82d-aa45-fd72-0d70", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "2c9c-f349-9ab7-b203", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Largesse", "id": "6216-cbac-9d95-69b8", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Target Priority", "id": "ffa9-1978-cb4f-40cb", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"},
+          {"name": "Agile", "id": "f310-6228-1269-1386", "hidden": false, "targetId": "6dcc-7a1a-6c40-33de", "type": "rule"},
+          {"name": "Moving Target", "id": "2f42-3cb3-06f4-00fc", "hidden": false, "targetId": "5599-fcda-4891-9c0c", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Helena Miller",
+            "id": "68c2-c4c4-91e1-9b8b",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "5", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "7", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "6", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "6", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "6", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "4", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wyatt Earp",
+        "id": "c963-4f06-024c-4087",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bosses", "id": "f0aa-d557-5eaf-5020", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Human", "id": "3486-25a3-6cac-2326", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Lawmen", "id": "9969-e87e-090c-cabf", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Male", "id": "85b2-ebee-2962-02dc", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Marshal", "id": "80be-c6c8-ba52-1d0b", "hidden": false, "primary": false, "targetId": "7b06-f42c-c91b-23cc"},
+          {"name": "Tombstone", "id": "24ce-9cd0-5f0c-04e0", "hidden": false, "primary": false, "targetId": "8269-89cd-eecb-0f37"}
+        ],
+        "constraints": [
+          {
+            "id": "53c0-c500-acd6-850a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 285}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "f475-55da-1061-cf1a", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "b151-916f-c105-5f10", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Largesse", "id": "77fb-92ea-e70a-8bc9", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Target Priority", "id": "a09b-1a9e-3525-095a", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"},
+          {"name": "Durable", "id": "63f0-2320-8f80-5f99", "hidden": false, "targetId": "3b1d-efba-4f81-ce92", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Wyatt Earp",
+            "id": "ccc0-dee4-0460-d557",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "5", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "6", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "7", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "7", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "6", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "4", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wyatt Earp (Mounted)",
+        "id": "5566-a63a-b3ab-38ac",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bosses", "id": "cec0-acbf-9b01-6712", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Human", "id": "2517-b3ea-e390-73ae", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Lawmen", "id": "0690-6cf2-a7db-21c5", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Male", "id": "3342-cd8a-a3aa-9ecf", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Marshal", "id": "5136-be57-7057-7981", "hidden": false, "primary": false, "targetId": "7b06-f42c-c91b-23cc"},
+          {"name": "Tombstone", "id": "fbc2-403e-43cd-7379", "hidden": false, "primary": false, "targetId": "8269-89cd-eecb-0f37"},
+          {"name": "Machine", "id": "4b47-3db6-655f-2659", "hidden": false, "primary": false, "targetId": "2fcb-3308-0cf8-9947"},
+          {"name": "Mounted", "id": "3186-23bb-5590-705d", "hidden": false, "primary": false, "targetId": "3e31-72f2-5743-20e1"},
+          {"name": "Iron Horse", "id": "2bb9-f1d9-6ff1-6348", "hidden": false, "primary": false, "targetId": "42e6-abe8-c7c0-4ee6"}
+        ],
+        "constraints": [
+          {
+            "id": "1181-2cf8-514b-14f9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 315}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "d7dc-63d8-7185-573b", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "bd2f-c31f-e78a-a472", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Largesse", "id": "f57d-3610-735d-b86e", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Target Priority", "id": "c4d3-0837-b44d-a3f0", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"},
+          {"name": "Durable", "id": "7895-1b35-f964-cf49", "hidden": false, "targetId": "3b1d-efba-4f81-ce92", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Wyatt Earp (Mounted)",
+            "id": "bbc1-e31a-a753-c663",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "8", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "6", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "7", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "7", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "7", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "4", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": " Wyatt Earp (Legendary)",
+        "id": "226d-0fda-a271-48a2",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bosses", "id": "a4d3-6c70-13be-6fd9", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Human", "id": "d383-c444-c720-376e", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Lawmen", "id": "9334-9bcd-b42e-726e", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Legendary", "id": "9f76-818f-f6f4-21b2", "hidden": false, "primary": false, "targetId": "72e0-dbf6-081a-05ed"},
+          {"name": "Male", "id": "10a8-148c-9787-8814", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Tombstone", "id": "d67e-0ed1-6495-28f2", "hidden": false, "primary": false, "targetId": "8269-89cd-eecb-0f37"}
+        ],
+        "constraints": [
+          {
+            "id": "1825-47fc-52c9-d440",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 305}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "d846-7bd6-b920-7639", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "bfa5-967a-cb15-3113", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Largesse", "id": "ef8e-0a45-30ea-d1f2", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Target Priority", "id": "1fac-375a-1ea5-db87", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Wyatt Earp (Legendary)",
+            "id": "8e44-2c57-df95-0a49",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "5", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "6", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "4", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "7", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "7", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "6", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "4", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bass Reeves",
+        "id": "33e5-7ab2-c0a9-e530",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bosses", "id": "9520-f4d9-5e78-d529", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Human", "id": "7094-c25b-b70a-7f83", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Lawmen", "id": "208b-690b-0cd0-7c08", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Male", "id": "b6dc-31df-02f1-2224", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Marshal", "id": "29bf-89b7-17ae-8103", "hidden": false, "primary": false, "targetId": "7b06-f42c-c91b-23cc"}
+        ],
+        "constraints": [
+          {
+            "id": "2342-5b91-5571-70dd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 260}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "842e-520d-6d98-87a5", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "bfb0-b2f0-a700-6019", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Largesse", "id": "adaf-1e34-1fc3-e30b", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Target Priority", "id": "8a78-6e48-12ff-db2c", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"},
+          {"name": "Prodigious", "id": "7be3-1786-08d1-772b", "hidden": false, "targetId": "a2bb-4b7f-7a00-558b", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Bass Reeves",
+            "id": "50c6-87ad-e110-cfa0",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "5", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "6", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "7", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "6", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "6", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "4", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kingsley Stern",
+        "id": "4564-9ec4-c03f-4c6d",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bosses", "id": "a509-b41e-fcee-2e9e", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Human", "id": "0b94-fd62-3291-53d3", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Judge", "id": "17ba-979c-aeca-be98", "hidden": false, "primary": false, "targetId": "c484-5526-ca98-a07c"},
+          {"name": "Lawmen", "id": "5fe1-5474-3339-87a4", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Male", "id": "8a51-8a89-84fb-6e1c", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"}
+        ],
+        "constraints": [
+          {
+            "id": "26d6-1e18-d7ec-3709",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 240}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "5a1c-7509-0809-5ac4", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "cd80-2ee2-7290-d74c", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Largesse", "id": "1328-996b-f7ca-19fb", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Target Priority", "id": "6066-172a-822b-d2c7", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Kingsley Stern",
+            "id": "48b3-3c36-0a38-57a1",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "5", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "7", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "4", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "6", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "7", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "4", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Morgan Earp",
+        "id": "ae3a-e60a-e400-c2e7",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bosses", "id": "3a7e-998b-c7ce-ecfe", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Lawmen", "id": "5e71-97fd-5700-a995", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Male", "id": "9af5-1a9e-a25c-6e3a", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Tombstone", "id": "ef83-1b99-c685-af16", "hidden": false, "primary": false, "targetId": "8269-89cd-eecb-0f37"},
+          {"name": "Special", "id": "7a74-dcaa-ed24-db5a", "hidden": false, "primary": false, "targetId": "2523-4df7-d297-857a"},
+          {"name": "Human", "id": "4b1d-99a0-2829-8dbc", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"}
+        ],
+        "constraints": [
+          {
+            "id": "e9fe-80b3-4fe8-54c2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 240}],
+        "infoLinks": [
+          {"name": "Tough", "id": "6f65-d6b5-701c-6188", "hidden": false, "targetId": "5fa2-a6c8-f14f-be92", "type": "rule"},
+          {"name": "Largesse", "id": "b249-6982-4bbc-c8ba", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Mettle", "id": "f49f-9647-78a5-6cb8", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "Durable", "id": "986e-78df-cea3-b547", "hidden": false, "targetId": "3b1d-efba-4f81-ce92", "type": "rule"},
+          {"name": "Target Priority", "id": "6683-6761-52e4-5cc4", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Morgan Earp",
+            "id": "1930-a026-a4fb-401c",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "5", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "6", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "6", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "6", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "6", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "3", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Morgan Earp (Legendary)",
+        "id": "0387-a25e-9fa9-ffec",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bosses", "id": "3836-080a-6b10-6f6b", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Legendary", "id": "d556-9e69-18a2-5adc", "hidden": false, "primary": false, "targetId": "72e0-dbf6-081a-05ed"},
+          {"name": "Lawmen", "id": "17e5-814b-69b9-2f3f", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Machine", "id": "9923-dd1a-2920-7bb2", "hidden": false, "primary": false, "targetId": "2fcb-3308-0cf8-9947"},
+          {"name": "Male", "id": "533c-95df-2135-8f01", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Tombstone", "id": "549e-f0e7-2472-fedf", "hidden": false, "primary": false, "targetId": "8269-89cd-eecb-0f37"},
+          {"name": "Special", "id": "63dd-624c-0ae8-1444", "hidden": false, "primary": false, "targetId": "2523-4df7-d297-857a"}
+        ],
+        "constraints": [
+          {
+            "id": "ecc9-b72c-b533-11f8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 265}],
+        "infoLinks": [
+          {"name": "Tough", "id": "3293-57d1-6fc8-69df", "hidden": false, "targetId": "5fa2-a6c8-f14f-be92", "type": "rule"},
+          {"name": "Largesse", "id": "31e2-e89e-29b9-6ec4", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Unstoppable", "id": "e90e-0c7a-e86b-63bf", "hidden": false, "targetId": "85b8-ba26-ee7c-8bcd", "type": "rule"},
+          {"name": "Durable", "id": "1342-e566-a957-314d", "hidden": false, "targetId": "3b1d-efba-4f81-ce92", "type": "rule"},
+          {"name": "Target Priority", "id": "0957-8024-307e-376a", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Morgan Earp (Legendary)",
+            "id": "1114-9c2b-4c8d-13c3",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "5", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "6", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "6", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "6", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "7", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "4", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Earle Shepherd",
+        "id": "b894-5794-823e-1127",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bosses", "id": "57e3-f1f3-f072-2d47", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Deadly Seven", "id": "1c9f-4138-5bab-0df2", "hidden": false, "primary": false, "targetId": "a330-6a16-5911-09e7"},
+          {"name": "Human", "id": "239f-e038-01f5-f9fb", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Lawmen", "id": "e631-a85b-30d3-dcb4", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Male", "id": "a2b5-ef07-b1a9-0d94", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Mercenary", "id": "2244-196a-ef2c-18af", "hidden": false, "primary": false, "targetId": "0f35-7fa0-d840-2b82"},
+          {"name": "Outlaws", "id": "3e71-0020-61a5-5459", "hidden": false, "primary": false, "targetId": "3ba7-5fcc-0fe1-5503"},
+          {"name": "Wayward Eight", "id": "e62a-66cb-2bac-7e46", "hidden": false, "primary": false, "targetId": "b3ea-c33e-2d3b-9c62"}
+        ],
+        "constraints": [
+          {
+            "id": "c3f9-cf66-c47d-243a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 215}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "1329-6c48-bbce-2f09", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "7611-039e-c9cd-e087", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Target Priority", "id": "cf87-0b44-1163-50a1", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"},
+          {"name": "Largesse", "id": "944b-11eb-b3e0-936d", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Earle Shepherd",
+            "id": "4dad-1fe8-835b-389f",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "6", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "6", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "6", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "6", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "6", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "3", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Earle Shepherd (Mounted)",
+        "id": "8a76-6951-94c6-bc42",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Bosses", "id": "d1e4-2c8d-0e9a-0e94", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Deadly Seven", "id": "8aa2-d70f-ad5b-5ca2", "hidden": false, "primary": false, "targetId": "a330-6a16-5911-09e7"},
+          {"name": "Human", "id": "5cf7-8665-d7f1-6fd0", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Lawmen", "id": "0569-7ec6-d762-2dc9", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Male", "id": "0123-1fd5-eeeb-bb60", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Mercenary", "id": "867a-4cd2-a48f-765c", "hidden": false, "primary": false, "targetId": "0f35-7fa0-d840-2b82"},
+          {"name": "Outlaws", "id": "dad0-ab20-3f13-2c19", "hidden": false, "primary": false, "targetId": "3ba7-5fcc-0fe1-5503"},
+          {"name": "Wayward Eight", "id": "4261-8a96-819d-4990", "hidden": false, "primary": false, "targetId": "b3ea-c33e-2d3b-9c62"},
+          {"name": "Iron Horse", "id": "cb87-a538-548c-4c66", "hidden": false, "primary": false, "targetId": "42e6-abe8-c7c0-4ee6"},
+          {"name": "Mounted", "id": "ed18-02c6-c279-1632", "hidden": false, "primary": false, "targetId": "3e31-72f2-5743-20e1"}
+        ],
+        "constraints": [
+          {
+            "id": "bd34-6c39-dd9d-618f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 245}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "4908-3ca3-f284-6037", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "1ea3-f3b2-b655-fba8", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Target Priority", "id": "813c-77eb-9f65-5bfe", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"},
+          {"name": "Largesse", "id": "e220-dec5-f5ec-6904", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Earle Shepherd (Mounted)",
+            "id": "4e86-b89e-bd0a-e0df",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "8", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "6", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "6", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "6", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "7", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "3", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
