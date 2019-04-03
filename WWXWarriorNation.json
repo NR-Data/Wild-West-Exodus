@@ -1,0 +1,3372 @@
+{
+  "catalogue": {
+    "name": "Warrior Nation",
+    "id": "518a7938-a263-45e9-351c-5dd18e5c6526",
+    "authorName": "Konrad",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "9b21e8c8-31b6-82f0-9805-ad62649f1f3d",
+    "gameSystemRevision": 1,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [
+      {"name": "Spirit Walkers", "id": "b63f-d252-a07c-28cd", "hidden": false},
+      {"name": "Chief", "id": "231d-ab5f-4777-feab", "hidden": false},
+      {"name": "Spirit", "id": "7ac0-2c47-2bdc-96fd", "hidden": false}
+    ],
+    "forceEntries": [
+      {
+        "name": "Warrior Nation Faction Posse",
+        "id": "9033-e4bc-2003-2a2d",
+        "hidden": false,
+        "forceEntries": [
+          {
+            "name": "1. Slot",
+            "id": "dc66-ef3f-4e25-65e3",
+            "hidden": false,
+            "categoryLinks": [
+              {
+                "name": "Hands",
+                "id": "48f0-c419-cb84-ce45",
+                "hidden": false,
+                "primary": false,
+                "targetId": "1f34-f721-c390-2cde",
+                "constraints": [
+                  {
+                    "id": "46e3-fc1c-e4c8-1bc8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "dc66-ef3f-4e25-65e3",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  },
+                  {
+                    "id": "5821-10d7-70cb-c9d4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "dc66-ef3f-4e25-65e3",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "dad7-5762-4443-610a",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "dad7-5762-4443-610a",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "5fe3-2fa8-5beb-db2e",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "0. Slot (Boss)",
+            "id": "5fe3-2fa8-5beb-db2e",
+            "hidden": false,
+            "categoryLinks": [
+              {
+                "name": "Bosses",
+                "id": "2f2d-ae4c-65fb-9e61",
+                "hidden": false,
+                "primary": false,
+                "targetId": "4e5f-f572-3d17-458b",
+                "constraints": [
+                  {
+                    "id": "e3d2-dbbb-c78b-a4fc",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "25ac-67a1-31b3-7c67",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "e8da-6331-2f4e-d917",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "2. Slot ",
+            "id": "4a43-7b82-de48-4033",
+            "hidden": false,
+            "categoryLinks": [
+              {
+                "name": "Faces",
+                "id": "29c6-2abb-8459-1f39",
+                "hidden": false,
+                "primary": false,
+                "targetId": "aa6b-3706-76b6-d0c0",
+                "constraints": [
+                  {
+                    "id": "77e9-93f6-e3f7-693e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "4a43-7b82-de48-4033",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "2566-fa4a-46af-83af",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "4a43-7b82-de48-4033",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "name": "Hands",
+                "id": "7bc6-0376-a194-bec1",
+                "hidden": false,
+                "primary": false,
+                "targetId": "1f34-f721-c390-2cde",
+                "constraints": [
+                  {
+                    "id": "7695-7316-3908-0625",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "4a43-7b82-de48-4033",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "54a1-b56e-cc8c-b702",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "4a43-7b82-de48-4033",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "6799-bd93-92e2-42f7",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              },
+              {
+                "id": "4685-b604-7b9f-27fd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "4a43-7b82-de48-4033",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "6799-bd93-92e2-42f7",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "dc66-ef3f-4e25-65e3",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "3. Slot",
+            "id": "478b-3406-14ab-dcbf",
+            "hidden": false,
+            "categoryLinks": [
+              {
+                "name": "Faces",
+                "id": "66fe-4e6f-8a14-ba16",
+                "hidden": false,
+                "primary": false,
+                "targetId": "aa6b-3706-76b6-d0c0",
+                "constraints": [
+                  {
+                    "id": "c4a5-9673-b6e0-b247",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "478b-3406-14ab-dcbf",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "d36e-9551-08b2-549c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "478b-3406-14ab-dcbf",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "name": "Support",
+                "id": "844c-f62b-7892-2729",
+                "hidden": false,
+                "primary": false,
+                "targetId": "8f95-e58c-8e6f-c637",
+                "constraints": [
+                  {
+                    "id": "5347-4418-40b4-6594",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "478b-3406-14ab-dcbf",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "7c10-c36d-70a8-58d3",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "478b-3406-14ab-dcbf",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "1f1f-a6f2-fc7a-c601",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              },
+              {
+                "id": "9bd2-60a4-9a22-b19e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "478b-3406-14ab-dcbf",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "1f1f-a6f2-fc7a-c601",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "4a43-7b82-de48-4033",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "4. Slot",
+            "id": "1886-f750-9b18-3341",
+            "hidden": false,
+            "categoryLinks": [
+              {
+                "name": "Hands",
+                "id": "0747-a613-81fb-c8c2",
+                "hidden": false,
+                "primary": false,
+                "targetId": "1f34-f721-c390-2cde",
+                "constraints": [
+                  {
+                    "id": "70d8-148c-d7cf-37b0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "1886-f750-9b18-3341",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "6f2b-2663-c22a-6c30",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "1886-f750-9b18-3341",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "name": "Support",
+                "id": "f0cd-3237-adde-389b",
+                "hidden": false,
+                "primary": false,
+                "targetId": "8f95-e58c-8e6f-c637",
+                "constraints": [
+                  {
+                    "id": "d345-2a19-f82a-be8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "1886-f750-9b18-3341",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "f9df-6c4e-7c3e-0565",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "1886-f750-9b18-3341",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "fd10-ec9e-0726-cbf8",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              },
+              {
+                "id": "4ea9-9834-e7e7-e609",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "1886-f750-9b18-3341",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "fd10-ec9e-0726-cbf8",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "478b-3406-14ab-dcbf",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "5. Slot",
+            "id": "efe2-bdcb-456b-73fb",
+            "hidden": false,
+            "categoryLinks": [
+              {
+                "name": "Faces",
+                "id": "5a38-0914-b360-f2bd",
+                "hidden": false,
+                "primary": false,
+                "targetId": "aa6b-3706-76b6-d0c0",
+                "constraints": [
+                  {
+                    "id": "322f-f90a-2f69-4221",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "efe2-bdcb-456b-73fb",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "9e92-4de7-e69a-a920",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "efe2-bdcb-456b-73fb",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "name": "Hands",
+                "id": "2ee0-ca91-c0e1-d8cf",
+                "hidden": false,
+                "primary": false,
+                "targetId": "1f34-f721-c390-2cde",
+                "constraints": [
+                  {
+                    "id": "da97-4b42-f6c2-cac4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "efe2-bdcb-456b-73fb",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "c08a-f365-47a1-e0ed",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "efe2-bdcb-456b-73fb",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "e373-bf83-ca1c-5ce2",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              },
+              {
+                "id": "d788-6271-9833-dee6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "efe2-bdcb-456b-73fb",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "e373-bf83-ca1c-5ce2",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "1886-f750-9b18-3341",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "6. Slot",
+            "id": "93af-b97a-afe9-ef25",
+            "hidden": false,
+            "categoryLinks": [
+              {
+                "name": "Support",
+                "id": "62b0-625a-d049-c351",
+                "hidden": false,
+                "primary": false,
+                "targetId": "8f95-e58c-8e6f-c637",
+                "constraints": [
+                  {
+                    "id": "db68-d6f0-a070-6d1d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "93af-b97a-afe9-ef25",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "77cf-6a97-3230-d12e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "93af-b97a-afe9-ef25",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "name": "Hands",
+                "id": "cbec-3af3-721e-667f",
+                "hidden": false,
+                "primary": false,
+                "targetId": "1f34-f721-c390-2cde",
+                "constraints": [
+                  {
+                    "id": "faf0-26fa-4eec-5e00",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "93af-b97a-afe9-ef25",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "9c0c-7b93-e43a-1c8c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "93af-b97a-afe9-ef25",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "6a4c-fd54-6ef9-5c25",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              },
+              {
+                "id": "45d4-c82d-8d2d-9a8a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "93af-b97a-afe9-ef25",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "6a4c-fd54-6ef9-5c25",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "efe2-bdcb-456b-73fb",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hour of the Wolf Theme Posse",
+        "id": "b294-7255-b20e-ea6b",
+        "hidden": false,
+        "forceEntries": [
+          {
+            "name": "0. Slot (Boss) - HotW",
+            "id": "51d6-71e9-5eff-8277",
+            "hidden": false,
+            "categoryLinks": [
+              {
+                "name": "Bosses",
+                "id": "ee5c-8d35-3592-f76c",
+                "hidden": false,
+                "primary": false,
+                "targetId": "4e5f-f572-3d17-458b",
+                "constraints": [
+                  {
+                    "id": "7dd1-bfd5-4060-0e29",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "1a7e-f114-8705-c17b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "89c2-b7b6-d833-d3b9",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "6. Slot - HotW",
+            "id": "c556-f300-5126-b5bc",
+            "hidden": false,
+            "categoryLinks": [
+              {"name": "Hands", "id": "5fb3-1067-2e5a-309d", "hidden": false, "primary": false, "targetId": "1f34-f721-c390-2cde"},
+              {"name": "Support", "id": "1254-6693-34a7-b8cb", "hidden": false, "primary": false, "targetId": "8f95-e58c-8e6f-c637"}
+            ],
+            "constraints": [
+              {
+                "id": "abfe-c213-b60e-d539",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              },
+              {
+                "id": "f42f-89ce-e0be-ec4a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "c556-f300-5126-b5bc",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "5e73-13f5-71bd-cef6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "c556-f300-5126-b5bc",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "abfe-c213-b60e-d539",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "c280-9d10-a25f-3176",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "4. Slot - HotW",
+            "id": "0894-c709-2375-6c3d",
+            "hidden": false,
+            "categoryLinks": [
+              {"name": "Hands", "id": "6601-5cca-5ee0-0476", "hidden": false, "primary": false, "targetId": "1f34-f721-c390-2cde"},
+              {"name": "Support", "id": "c900-007c-ac10-e51b", "hidden": false, "primary": false, "targetId": "8f95-e58c-8e6f-c637"}
+            ],
+            "constraints": [
+              {
+                "id": "68dd-48cb-cd67-96cf",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "0894-c709-2375-6c3d",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "b3a2-75aa-8c69-b46d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "0894-c709-2375-6c3d",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "bab2-3d47-a735-c178",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "bab2-3d47-a735-c178",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "2c8f-630c-785a-8d22",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "5. Slot - HotW",
+            "id": "c280-9d10-a25f-3176",
+            "hidden": false,
+            "categoryLinks": [
+              {
+                "name": "Faces",
+                "id": "fa6e-0873-1100-64df",
+                "hidden": false,
+                "primary": false,
+                "targetId": "aa6b-3706-76b6-d0c0",
+                "constraints": [
+                  {
+                    "id": "74d2-8e7a-09b7-f4d8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "c280-9d10-a25f-3176",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Support",
+                "id": "fc67-626f-4c93-306d",
+                "hidden": false,
+                "primary": false,
+                "targetId": "8f95-e58c-8e6f-c637",
+                "constraints": [
+                  {
+                    "id": "f38c-0e3c-c585-988e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "c280-9d10-a25f-3176",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "094c-0c74-ff2a-eab0",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              },
+              {
+                "id": "7180-71e9-b530-a77c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "c280-9d10-a25f-3176",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "239f-cdc7-d0c2-455c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "c280-9d10-a25f-3176",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "094c-0c74-ff2a-eab0",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "0894-c709-2375-6c3d",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "3. Slot - HotW",
+            "id": "2c8f-630c-785a-8d22",
+            "hidden": false,
+            "categoryLinks": [{"name": "Support", "id": "e03c-e1e3-9440-1f92", "hidden": false, "primary": false, "targetId": "8f95-e58c-8e6f-c637"}],
+            "constraints": [
+              {
+                "id": "2c5c-f4c2-2dce-7648",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              },
+              {
+                "id": "42cd-ee8c-5e9e-2ca4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "2c8f-630c-785a-8d22",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "eac9-4829-1f94-aef2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "2c8f-630c-785a-8d22",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "2c5c-f4c2-2dce-7648",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "e888-bbf1-56d7-34c8",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2. Slot - HotW",
+            "id": "e888-bbf1-56d7-34c8",
+            "hidden": false,
+            "categoryLinks": [
+              {
+                "name": "Faces",
+                "id": "c85f-4203-ff75-ba7c",
+                "hidden": false,
+                "primary": false,
+                "targetId": "aa6b-3706-76b6-d0c0",
+                "constraints": [
+                  {
+                    "id": "0ad4-7bc7-10c8-107c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "e888-bbf1-56d7-34c8",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Support",
+                "id": "c101-d0ad-4ccd-941f",
+                "hidden": false,
+                "primary": false,
+                "targetId": "8f95-e58c-8e6f-c637",
+                "constraints": [
+                  {
+                    "id": "f4a4-57f6-405c-66e5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "e888-bbf1-56d7-34c8",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "3cc0-5b85-1f2e-ea88",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              },
+              {
+                "id": "76f3-3233-3cd0-4462",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "e888-bbf1-56d7-34c8",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "46ea-4f66-741b-8e22",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "3cc0-5b85-1f2e-ea88",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "129b-9404-1b7d-582f",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "1. Slot - HotW",
+            "id": "129b-9404-1b7d-582f",
+            "hidden": false,
+            "categoryLinks": [
+              {"name": "Support", "id": "bf80-5288-c982-c524", "hidden": false, "primary": false, "targetId": "8f95-e58c-8e6f-c637"},
+              {"name": "Faces", "id": "9f16-1d7b-8e70-e896", "hidden": false, "primary": false, "targetId": "aa6b-3706-76b6-d0c0"}
+            ],
+            "constraints": [
+              {
+                "id": "ffba-6069-72b0-3a6f",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 0
+              },
+              {
+                "id": "2015-f8b6-e927-b272",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "129b-9404-1b7d-582f",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "c0b3-af3d-bd22-8b28",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "129b-9404-1b7d-582f",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "ffba-6069-72b0-3a6f",
+                "type": "set",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "51d6-71e9-5eff-8277",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Raging Bear (Legendary)",
+        "id": "04b8-a5eb-64ed-8491",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Boss", "id": "7e75-3823-500f-6492", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Beast", "id": "21f1-4d58-c811-9282", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"},
+          {"name": "Legendary", "id": "007a-6fcc-9a79-2304", "hidden": false, "primary": false, "targetId": "72e0-dbf6-081a-05ed"},
+          {"name": "Male", "id": "5e8f-8a86-4fd8-073b", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Spirit Walkers", "id": "862f-a6c7-129a-7069", "hidden": false, "primary": false, "targetId": "b63f-d252-a07c-28cd"},
+          {"name": "Warrior Nation", "id": "aed3-cba8-6a73-34c2", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "1cfe-b481-a8b4-be51",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 235}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "51d6-71e9-5eff-8277",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Walks Looking",
+        "id": "876b-9cf6-b3ca-2a7f",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Boss", "id": "75b2-eef2-a647-7232", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Warrior Nation", "id": "d8ba-6a56-2320-27bd", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"},
+          {"name": "Female", "id": "9191-3996-446f-688e", "hidden": false, "primary": false, "targetId": "3620-2a28-c3fe-9a53"},
+          {"name": "Human", "id": "fa93-accb-ecac-ef68", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"}
+        ],
+        "constraints": [
+          {
+            "id": "7105-66c9-8d03-4075",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 230}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "fd04-0148-5acc-69c8", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "aa2d-8c14-24f8-e7e4", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Largesse", "id": "4d21-7b2a-32ac-6831", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Target Priority", "id": "5624-9a77-4c08-663d", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"},
+          {"name": "Trailfinder", "id": "ff60-dedc-e90d-de65", "hidden": false, "targetId": "bf15-949d-58d8-8a65", "type": "rule"},
+          {"name": "Agile", "id": "9493-0bfe-45bd-ce43", "hidden": false, "targetId": "6dcc-7a1a-6c40-33de", "type": "rule"},
+          {"name": "Unique", "id": "7c20-f6ec-a1f8-293d", "hidden": false, "targetId": "0c90-44c9-d012-1bea", "type": "rule"},
+          {"name": "Combat Master", "id": "15bb-c86a-008c-7067", "hidden": false, "targetId": "80c9-b50a-0f2c-39e5", "type": "rule"},
+          {"name": "Soul Strike", "id": "5bb9-8c38-d482-63ff", "hidden": false, "targetId": "5c1b-17e9-44bc-a132", "type": "rule"},
+          {"name": "Invigorate", "id": "b711-f531-f842-5b0a", "hidden": false, "targetId": "5ba6-c86d-95a4-aa61", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "7105-66c9-8d03-4075",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "7151-c2d7-2c11-18f3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "51d6-71e9-5eff-8277",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Walks Looking",
+            "id": "0f43-af1a-98ab-8d8f",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "6", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "7", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "0", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "7", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "6", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "3", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          },
+          {
+            "name": "Spirit Blades",
+            "id": "c40b-3b74-f394-5bba",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "1\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "2", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Parry, Attuned", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Decapitate", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Raven Spirit  (Legendary)",
+        "id": "0fc5-dfac-c2aa-ade0",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Boss", "id": "0c35-fa11-ed00-5f9a", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Spirit", "id": "42db-8c89-e1c3-9d9e", "hidden": false, "primary": false, "targetId": "7ac0-2c47-2bdc-96fd"},
+          {"name": "Chief", "id": "874e-7cea-9921-1d8d", "hidden": false, "primary": false, "targetId": "231d-ab5f-4777-feab"},
+          {"name": "Legendary", "id": "84a1-a4a9-6100-2f4a", "hidden": false, "primary": false, "targetId": "72e0-dbf6-081a-05ed"},
+          {"name": "Male", "id": "7696-18e5-7a60-278b", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Warrior Nation", "id": "80ec-05b6-58b4-5ba5", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"},
+          {"name": "Flight", "id": "233b-9fb4-8b3c-7c89", "hidden": false, "primary": false, "targetId": "241a-588b-b3d8-3ee0"}
+        ],
+        "constraints": [
+          {
+            "id": "dfff-2de5-0db8-c455",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 285}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "51d6-71e9-5eff-8277",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ghost Wolf",
+        "id": "a9de-2850-1672-8be5",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "a4a2-0b1c-18d7-4eb7", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Warrior Nation", "id": "0975-0e39-12b2-1f88", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"},
+          {"name": "Human", "id": "5682-89ad-d7d7-b772", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Male", "id": "49e4-fc51-b6bf-88a2", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"}
+        ],
+        "constraints": [
+          {
+            "id": "982c-f877-680a-4bd6",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 245}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "9b13-e151-dd0b-ae66", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "00d2-829c-08fc-242e", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Largesse", "id": "0e54-b597-899e-b987", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Target Priority", "id": "f216-df0e-fcbc-e96c", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"},
+          {"name": "Sure Foot", "id": "7f11-fa52-825c-7d1a", "hidden": false, "targetId": "ae83-8c05-d149-20ab", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "982c-f877-680a-4bd6",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "13cf-4711-a684-27ae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ghost Wolf",
+            "id": "dabf-60e6-ffce-9868",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "5", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "7", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "6", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "7", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "6", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "4", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          },
+          {
+            "name": "Spirit Blades",
+            "id": "3696-b1e9-c21a-1f74",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "1", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "2", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Parry, Attuned", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Decapitate", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Walks Looking (Legendary)",
+        "id": "7151-c2d7-2c11-18f3",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Boss", "id": "37b3-79d0-86c6-2d8c", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Female", "id": "d4dd-5aa5-ac4d-89e3", "hidden": false, "primary": false, "targetId": "3620-2a28-c3fe-9a53"},
+          {"name": "Legendary", "id": "eea0-5b14-1af0-2ed4", "hidden": false, "primary": false, "targetId": "72e0-dbf6-081a-05ed"},
+          {"name": "Warrior Nation", "id": "7fda-1031-d17a-6bdd", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"},
+          {"name": "Human", "id": "61a7-71ed-dc53-62d0", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"}
+        ],
+        "constraints": [
+          {
+            "id": "80af-1bec-f8c2-b447",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 285}],
+        "modifiers": [
+          {
+            "field": "80af-1bec-f8c2-b447",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "876b-9cf6-b3ca-2a7f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "51d6-71e9-5eff-8277",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ghost Wolf (Legendary)",
+        "id": "13cf-4711-a684-27ae",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "eb6b-08fa-86c9-77ab", "hidden": false, "primary": true, "targetId": "4e5f-f572-3d17-458b"},
+          {"name": "Beast", "id": "e794-4c37-acba-fbfa", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"},
+          {"name": "Chief", "id": "a23b-a820-30d4-418b", "hidden": false, "primary": false, "targetId": "231d-ab5f-4777-feab"},
+          {"name": "Male", "id": "5a3b-9ddb-ce1b-0278", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Spirit Walkers", "id": "030f-3f4a-7e7b-a592", "hidden": false, "primary": false, "targetId": "b63f-d252-a07c-28cd"},
+          {"name": "Warrior Nation", "id": "5f66-8680-47ea-ec63", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "1715-2cbb-9227-e6bd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 305}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "fc96-b31a-6204-fc3f", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "5548-b755-f006-63f2", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Largesse", "id": "aea3-7d0d-8733-3eee", "hidden": false, "targetId": "1466-09ad-7c63-fde5", "type": "rule"},
+          {"name": "Unstoppable", "id": "f328-b28c-85c9-1853", "hidden": false, "targetId": "85b8-ba26-ee7c-8bcd", "type": "rule"},
+          {"name": "Sure Foot", "id": "e6bf-b9cd-48c4-45eb", "hidden": false, "targetId": "ae83-8c05-d149-20ab", "type": "rule"},
+          {"name": "Moving Target", "id": "3d7e-83e0-0844-b97b", "hidden": false, "targetId": "5599-fcda-4891-9c0c", "type": "rule"},
+          {"name": "Inspirational", "id": "09a7-b854-0241-aaca", "hidden": false, "targetId": "2551-e4fc-3c56-3874", "type": "rule"},
+          {"name": "Bloodthirsty", "id": "0999-ae54-084f-748d", "hidden": false, "targetId": "8636-064c-e867-dd01", "type": "rule"},
+          {"name": "Rapid", "id": "e1e6-746f-91a4-b500", "hidden": false, "targetId": "74e4-df7a-34f5-5500", "type": "rule"},
+          {"name": "Combat Master", "id": "cc86-6a44-4219-9bc2", "hidden": false, "targetId": "80c9-b50a-0f2c-39e5", "type": "rule"},
+          {"name": "Unique", "id": "3286-09ce-dc5a-7df6", "hidden": false, "targetId": "0c90-44c9-d012-1bea", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "1715-2cbb-9227-e6bd",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "a9de-2850-1672-8be5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ghost Wolf (Legendary)",
+            "id": "c67c-9847-914d-3f3c",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "8", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "7", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "4", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "5", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "7", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "7", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "5", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          },
+          {
+            "name": "Spirit Claws",
+            "id": "805d-56e9-1f68-8165",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "B2B", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "3", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Attuned", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "typeId": "f818-5957-e275-643d"}
+            ]
+          },
+          {
+            "name": "Fanged Maw",
+            "id": "30c4-c9c3-ebae-f47a",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "B2B", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Brutal, Tangle", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Lethal", "typeId": "f818-5957-e275-643d"}
+            ]
+          },
+          {
+            "name": "Spirit Blades",
+            "id": "88f3-9009-a258-6f88",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "1\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "2", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Parry, Attuned", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Decapitate", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Apache Kid",
+        "id": "77bd-4ea1-4cbd-b57c",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Face", "id": "73e8-d1b3-5d7c-2f4b", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Human", "id": "bd89-ca69-bffb-3bd3", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Lawmen", "id": "0bc3-c5f9-2b4e-939b", "hidden": false, "primary": false, "targetId": "1bd0-4fcc-51f3-5aab"},
+          {"name": "Male", "id": "2c5a-bd12-1fbe-b526", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Mercenary", "id": "05f9-b241-2bb1-0219", "hidden": false, "primary": false, "targetId": "0f35-7fa0-d840-2b82"},
+          {"name": "Outlaws", "id": "2bf8-b6a7-5189-973d", "hidden": false, "primary": false, "targetId": "3ba7-5fcc-0fe1-5503"},
+          {"name": "Regulators", "id": "4a90-1b7f-179d-5649", "hidden": false, "primary": false, "targetId": "a06b-89c2-8ec5-3591"},
+          {"name": "Warrior Nation", "id": "37d6-b2ea-bdc1-b69d", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "d1b3-7b72-dd37-8195",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 135}]
+      },
+      {
+        "name": "Longtree",
+        "id": "c100-93a2-a834-2c8d",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Face", "id": "2e7a-7441-f58e-98a8", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Dark Nation", "id": "083f-7c8e-52e0-af09", "hidden": false, "primary": false, "targetId": "b56d-d2be-e427-5a6d"},
+          {"name": "Hex", "id": "5b5a-1e29-d54c-00d7", "hidden": false, "primary": false, "targetId": "8f78-7262-70d2-d8c2"},
+          {"name": "Human", "id": "47d2-47b5-db8c-779b", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Male", "id": "00c5-1e60-c9cd-bbe4", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Mercenary", "id": "f06b-adac-1ed8-acd9", "hidden": false, "primary": false, "targetId": "0f35-7fa0-d840-2b82"},
+          {"name": "Warrior Nation", "id": "2202-b694-1beb-7650", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"},
+          {"name": "Outlaws", "id": "c1ef-b057-72df-9268", "hidden": false, "primary": false, "targetId": "3ba7-5fcc-0fe1-5503"}
+        ],
+        "constraints": [
+          {
+            "id": "17b9-cc92-5edb-8809",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 115}]
+      },
+      {
+        "name": "Stonefist",
+        "id": "4b32-9e0b-825b-a8bd",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Face", "id": "1e3d-25cc-2ee9-e482", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Human", "id": "6356-054b-ad13-7608", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Legendary", "id": "118a-38b7-5b6e-4fc5", "hidden": false, "primary": false, "targetId": "72e0-dbf6-081a-05ed"},
+          {"name": "Male", "id": "8739-f721-5a48-dd5a", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Mounted", "id": "0315-45dd-023a-774b", "hidden": false, "primary": false, "targetId": "3e31-72f2-5743-20e1"},
+          {"name": "Warrior Nation", "id": "2e9a-56de-b884-cb84", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "d2c2-8913-ff36-40e6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 125}]
+      },
+      {
+        "name": "Irontooth",
+        "id": "e01a-15cf-4757-d07b",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Face", "id": "bf9b-3777-ce74-1751", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Beast", "id": "f8cf-d501-0047-caf3", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"},
+          {"name": "Legendary", "id": "fa04-b275-1163-8cb4", "hidden": false, "primary": false, "targetId": "72e0-dbf6-081a-05ed"},
+          {"name": "Male", "id": "7a32-53ee-5f79-44d5", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Spirit Walkers", "id": "d259-ef01-f18e-939c", "hidden": false, "primary": false, "targetId": "b63f-d252-a07c-28cd"},
+          {"name": "Warrior Nation", "id": "ab89-fa32-be91-f1d2", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "ef02-5bac-fb31-3101",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 215}],
+        "infoLinks": [
+          {"name": "Unique", "id": "0a24-cfa6-1d0e-4566", "hidden": false, "targetId": "0c90-44c9-d012-1bea", "type": "rule"},
+          {"name": "Mettle", "id": "fcf6-982f-9092-123c", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "50d8-77ae-6cb9-5878", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Sure Foot", "id": "c539-614d-6b46-dc67", "hidden": false, "targetId": "ae83-8c05-d149-20ab", "type": "rule"},
+          {"name": "Moving Target", "id": "c9af-e772-1510-4a85", "hidden": false, "targetId": "5599-fcda-4891-9c0c", "type": "rule"},
+          {"name": "Treasure Hunter", "id": "555c-ff7c-f226-f607", "hidden": false, "targetId": "c6fa-4c81-1efc-6f62", "type": "rule"},
+          {"name": "Rapid", "id": "7e2c-4d6f-c11c-70af", "hidden": false, "targetId": "74e4-df7a-34f5-5500", "type": "rule"},
+          {"name": "Savant", "id": "1367-9c7d-ee08-4c51", "hidden": false, "targetId": "b4b5-b2c5-3b89-48df", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Irontooth",
+            "id": "2ccc-1f51-d779-0571",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "5", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "6", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "5", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "7", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "7", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "2", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          },
+          {
+            "name": "Fanged Maw",
+            "id": "e71b-b437-5c49-eb73",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "B2B", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Brutal, Tangle", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Lethal", "typeId": "f818-5957-e275-643d"}
+            ]
+          },
+          {
+            "name": "Spirit Blades",
+            "id": "2fba-2805-e666-5a1b",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "1\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "2", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Parry, Attuned", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Lethal", "typeId": "f818-5957-e275-643d"}
+            ]
+          },
+          {
+            "name": "Moon-Hunter's Bolo",
+            "id": "5d33-ff31-3ca2-8198",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "0", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Tangle", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Lethal", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Alcon The Sky Spirit",
+        "id": "5a59-7e2e-bf5b-c309",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Face", "id": "ce1f-7926-8386-cfb6", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Beast", "id": "908a-ffd2-edd8-48a8", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"},
+          {"name": "Male", "id": "e08d-8c30-15ed-c4ae", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Spirit Walkers", "id": "c638-ce56-8b9e-1455", "hidden": false, "primary": false, "targetId": "b63f-d252-a07c-28cd"},
+          {"name": "Warrior Nation", "id": "86d9-279f-aff7-6060", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"},
+          {"name": "Flight", "id": "82e9-1a7b-754b-ca66", "hidden": false, "primary": false, "targetId": "241a-588b-b3d8-3ee0"}
+        ],
+        "constraints": [
+          {
+            "id": "ff81-38bf-d126-dfba",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 155}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "129b-9404-1b7d-582f",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "White Buffalo",
+        "id": "e032-0644-5eec-1a72",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Face", "id": "b635-cc3c-c0fc-c69d", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Human", "id": "a5be-1e93-0a1f-1cbc", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Male", "id": "3284-c2a9-25f6-c0f2", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Warrior Nation", "id": "4d92-a071-cf63-ebbf", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "8aad-fe93-bf44-c739",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 125}]
+      },
+      {
+        "name": "Ironhawk",
+        "id": "a3df-ecaf-e334-abaa",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "1f5e-4e6f-b3a4-524a", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Human", "id": "0f90-67a0-2b1e-8ce8", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Male", "id": "9532-e6ba-2769-e21b", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Warrior Nation", "id": "b143-65e3-194d-7bcc", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "5b20-5b7a-0d89-7707",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 95}]
+      },
+      {
+        "name": "Ravenseye",
+        "id": "1606-550e-7bf3-1c9d",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2fc9-0684-595f-6a75", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Female", "id": "4f39-fab6-2815-075c", "hidden": false, "primary": false, "targetId": "3620-2a28-c3fe-9a53"},
+          {"name": "Human", "id": "2c52-29d2-1af8-1046", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Warrior Nation", "id": "2990-65b5-7184-4a61", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "cb18-0189-8b3d-37fe",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 135}]
+      },
+      {
+        "name": "Littleclaw",
+        "id": "f649-f23f-e31c-2902",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "31d2-bf0e-cd47-ff7c", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Human", "id": "67f5-4f1f-bbc9-e361", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Female", "id": "4c9f-1279-2c44-2ee2", "hidden": false, "primary": false, "targetId": "3620-2a28-c3fe-9a53"},
+          {"name": "Warrior Nation", "id": "06f2-48c1-6307-6d6d", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "693a-c910-2e49-9896",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 130}]
+      },
+      {
+        "name": "Hawkeye",
+        "id": "75bc-3f6c-e5ae-4552",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "f1b4-d493-9de7-1bcb", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Female", "id": "c88e-4d1f-321a-b094", "hidden": false, "primary": false, "targetId": "3620-2a28-c3fe-9a53"},
+          {"name": "Human", "id": "b4a7-6d63-ef93-58be", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Warrior Nation", "id": "72a1-8d96-d9ff-ddee", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "f026-1390-868f-c0da",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "8ea3-eb57-10fc-509e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "129b-9404-1b7d-582f",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "f214-202e-4949-99bd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "129b-9404-1b7d-582f",
+            "shared": true,
+            "type": "min",
+            "value": 0
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 130}]
+      },
+      {
+        "name": "Moonswift",
+        "id": "c316-5c28-d446-b8d0",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "7570-74b6-738d-f0d1", "hidden": false, "primary": true, "targetId": "aa6b-3706-76b6-d0c0"},
+          {"name": "Female", "id": "0426-79f7-e4cc-78b4", "hidden": false, "primary": false, "targetId": "3620-2a28-c3fe-9a53"},
+          {"name": "Human", "id": "a14d-b061-5456-0757", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Warrior Nation", "id": "a845-45eb-b278-bfc0", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "constraints": [
+          {
+            "id": "5d99-56b8-d75e-0d1a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 135}],
+        "infoLinks": [
+          {"name": "Mettle", "id": "2c71-c9c7-76ee-2004", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "The Quick & the Dead", "id": "d0be-2cca-32b1-993a", "hidden": false, "targetId": "7a8a-ee6b-a9cb-475e", "type": "rule"},
+          {"name": "Target Priority", "id": "90af-7173-6f10-5439", "hidden": false, "targetId": "327f-37c6-271d-8dc5", "type": "rule"},
+          {"name": "Teamwork", "id": "21f9-10d8-407e-8239", "hidden": false, "targetId": "4cac-9fbe-804f-aa2b", "type": "rule"},
+          {"name": "Sure Foot", "id": "699e-6495-6f6d-ba12", "hidden": false, "targetId": "ae83-8c05-d149-20ab", "type": "rule"},
+          {"name": "Bounding Strike", "id": "3ee2-dc96-116e-07b9", "hidden": false, "targetId": "13ff-e18d-8a27-63b4", "type": "rule"},
+          {"name": "Rapid", "id": "d52d-57ff-c9f3-4cde", "hidden": false, "targetId": "74e4-df7a-34f5-5500", "type": "rule"},
+          {"name": "Child of the Great Spirit", "id": "75ff-a7e2-3daf-0aed", "hidden": false, "targetId": "4430-a116-a7b8-f354", "type": "rule"},
+          {"name": "Dances with Wolves", "id": "c877-96b9-0b33-5729", "hidden": false, "targetId": "64f9-e385-7f3b-5f1b", "type": "rule"},
+          {"name": "Unique", "id": "4af3-5600-d5b3-454c", "hidden": false, "targetId": "0c90-44c9-d012-1bea", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Moonswift",
+            "id": "3efa-dfd3-0294-c744",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "6", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "5", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "3", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "4", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "6", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "5", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "$text": "1", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          },
+          {
+            "name": "Throwing Knives",
+            "id": "949d-23c1-fde2-e498",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "B2B", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "3", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Thrown", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "typeId": "f818-5957-e275-643d"}
+            ]
+          },
+          {
+            "name": "Spirit Axes",
+            "id": "0e47-0ac3-b0e8-fb38",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "B2B", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "2", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Attuned", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Decapitate", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Brave Youngbloods",
+        "id": "b638-69c4-7176-68c0",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "e06b-a8b5-8e38-9cdb", "hidden": false, "primary": true, "targetId": "1f34-f721-c390-2cde"},
+          {"name": "Warrior Nation", "id": "5bfc-ec10-936e-3151", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"},
+          {"name": "Male", "id": "dd6b-53c8-49b6-f081", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Human", "id": "1de6-9949-91ab-83af", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Brave Youngblood",
+            "id": "552c-55a4-c2c2-7977",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "5610-f5ed-f409-032c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              },
+              {
+                "id": "99f5-9ebf-28af-b357",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 10
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 30}]
+          }
+        ]
+      },
+      {
+        "name": "Brave Hunters",
+        "id": "e78b-e3e6-4078-6322",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "d0f6-578f-8e7f-57d8", "hidden": false, "primary": true, "targetId": "1f34-f721-c390-2cde"},
+          {"name": "Human", "id": "5233-f100-e4fa-04ab", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Male", "id": "a478-2399-dba9-10a0", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Warrior Nation", "id": "80c3-e0e8-46b7-901c", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Warrior Nation Faction Armory",
+            "id": "6d01-4837-6d37-20a3",
+            "hidden": false,
+            "targetId": "f197-3924-da3e-e2ba",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "be24-1bf4-e363-6115",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Brave Hunter",
+            "id": "7551-bdf9-e4c4-a492",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "58d8-1ce3-b43a-b54e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              },
+              {
+                "id": "34a0-f962-f532-df55",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 30}]
+          }
+        ]
+      },
+      {
+        "name": "Plains Warriors",
+        "id": "48e8-ca55-5eae-e4c0",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "546a-8158-a806-0d89", "hidden": false, "primary": true, "targetId": "1f34-f721-c390-2cde"},
+          {"name": "Human", "id": "7daf-a988-61c9-5554", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Male", "id": "141f-1f1a-43f3-1910", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Warrior Nation", "id": "0dc9-7c72-f81c-8f2c", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Warrior Nation Faction Armory",
+            "id": "92b2-6759-454c-27a4",
+            "hidden": false,
+            "targetId": "f197-3924-da3e-e2ba",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "3fc0-169a-f400-65ca",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "3fc0-169a-f400-65ca",
+                "type": "set",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 6
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Plains Warrior",
+            "id": "978f-e2c8-2df7-0948",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "a28c-aaff-7cf1-2f00",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              },
+              {
+                "id": "e445-0805-60a2-d165",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 35}]
+          }
+        ]
+      },
+      {
+        "name": "Plains Stalkers",
+        "id": "355e-0898-bb45-c3e9",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "55d9-b721-08b4-40fb", "hidden": false, "primary": true, "targetId": "1f34-f721-c390-2cde"},
+          {"name": "Male", "id": "c597-0297-d84b-539c", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Human", "id": "f308-34be-af44-9f6d", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Warrior Nation", "id": "99cf-cb2b-d082-16e4", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Warrior Nation Faction Armory",
+            "id": "ea1f-7430-ef45-b45c",
+            "hidden": false,
+            "targetId": "f197-3924-da3e-e2ba",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "7716-d407-0f6d-8d0b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "7716-d407-0f6d-8d0b",
+                "type": "set",
+                "value": 2,
+                "conditions": [
+                  {
+                    "childId": "model",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 6
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Plains Stalker",
+            "id": "5ec0-306b-7ce5-237d",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "2c94-5c0a-fa30-47e4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              },
+              {
+                "id": "4d3f-26e2-90dd-2057",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 35}]
+          }
+        ]
+      },
+      {
+        "name": "Sky Stallions",
+        "id": "07fa-0258-2d62-2128",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8cbb-55db-5c3d-c1be", "hidden": false, "primary": true, "targetId": "8f95-e58c-8e6f-c637"},
+          {"name": "Beast", "id": "d136-9954-7a71-734c", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"},
+          {"name": "Mounted", "id": "cd19-bc14-b4e5-b255", "hidden": false, "primary": false, "targetId": "3e31-72f2-5743-20e1"},
+          {"name": "Warrior Nation", "id": "3719-9e85-b513-75c3", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Sky Stallion",
+            "id": "7de4-bfb2-20bb-b887",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "8db4-862c-51c5-99f5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              },
+              {
+                "id": "0382-cdc5-0b13-8ef2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 80}]
+          }
+        ]
+      },
+      {
+        "name": "Great Spirit Shamans",
+        "id": "6c87-9934-06dc-d8a7",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ecd4-08fc-b194-5e11", "hidden": false, "primary": true, "targetId": "8f95-e58c-8e6f-c637"},
+          {"name": "Human", "id": "0fb0-770d-a7ba-2759", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Male", "id": "a848-d137-f791-5a07", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Warrior Nation", "id": "b335-86d3-95ef-95d7", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Great Spirit Shaman",
+            "id": "9544-2bf2-12af-cc20",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "e056-02e8-e398-1ba9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              },
+              {
+                "id": "55be-4046-9258-0493",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 40}]
+          }
+        ]
+      },
+      {
+        "name": "Spirit Apparition",
+        "id": "9619-fb24-0d13-bfcc",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "765a-c5cd-a62c-1522", "hidden": false, "primary": true, "targetId": "8f95-e58c-8e6f-c637"},
+          {"name": "Hex", "id": "97e0-0375-fc15-7e72", "hidden": false, "primary": false, "targetId": "8f78-7262-70d2-d8c2"},
+          {"name": "Order", "id": "3bc5-51e8-f60a-f2ec", "hidden": false, "primary": false, "targetId": "6700-c7a6-5ed8-f19f"},
+          {"name": "Spirit", "id": "e561-8314-d7d2-deb0", "hidden": false, "primary": false, "targetId": "7ac0-2c47-2bdc-96fd"},
+          {"name": "Warrior Nation", "id": "bc78-1c29-c846-0a7a", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Spirit Apparition",
+            "id": "8674-def4-869c-ac44",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "1748-ab47-8c07-5a3e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              },
+              {
+                "id": "bcae-df47-7db0-505a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 65}]
+          }
+        ]
+      },
+      {
+        "name": "Kaga Brothers",
+        "id": "2805-2a67-c316-c922",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ce2b-016d-2619-3036", "hidden": false, "primary": true, "targetId": "8f95-e58c-8e6f-c637"},
+          {"name": "Human", "id": "938e-4b78-f5e1-b067", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Male", "id": "d961-cd29-61c7-75b0", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Warrior Nation", "id": "0678-a36d-c30b-c22a", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Kaga Brother",
+            "id": "dd95-a194-915a-27cf",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "c913-67bc-cb63-e61e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              },
+              {
+                "id": "3f67-344c-8ba0-aeb9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 45}],
+            "entryLinks": [
+              {
+                "name": "Warrior Nation Faction Armory",
+                "id": "3e5f-bf8d-7c39-e575",
+                "hidden": false,
+                "targetId": "f197-3924-da3e-e2ba",
+                "type": "selectionEntryGroup",
+                "constraints": [
+                  {
+                    "id": "26d0-71ae-62a2-95ab",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "dd95-a194-915a-27cf",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fire Bringers",
+        "id": "ba11-dd07-3952-459b",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "0804-ceee-1406-37c8", "hidden": false, "primary": true, "targetId": "8f95-e58c-8e6f-c637"},
+          {"name": "Machine", "id": "bda0-8e2c-5bf3-42b9", "hidden": false, "primary": false, "targetId": "2fcb-3308-0cf8-9947"},
+          {"name": "Human", "id": "3eb9-2d28-ab94-49aa", "hidden": false, "primary": false, "targetId": "2959-545d-5227-6114"},
+          {"name": "Mounted", "id": "93ae-d312-574a-26bf", "hidden": false, "primary": false, "targetId": "3e31-72f2-5743-20e1"},
+          {"name": "Warrior Nation", "id": "089b-037e-c447-12eb", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "129b-9404-1b7d-582f",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              },
+              {
+                "childId": "e888-bbf1-56d7-34c8",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              },
+              {
+                "childId": "2c8f-630c-785a-8d22",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              },
+              {
+                "childId": "0894-c709-2375-6c3d",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              },
+              {
+                "childId": "c280-9d10-a25f-3176",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              },
+              {
+                "childId": "c556-f300-5126-b5bc",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "b294-7255-b20e-ea6b",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Fire Bringer",
+            "id": "38cf-3034-38db-7824",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "2131-c2fb-857a-6732",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              },
+              {
+                "id": "9212-4e9e-868e-d371",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 85}]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrade Gatling Fusillade",
+            "id": "d73c-0bd0-5670-5d1c",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Plainswalker Ballista",
+                "id": "428b-deed-c9ea-87a8",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 20}],
+                "profiles": [
+                  {
+                    "name": "Plainswalker Ballista",
+                    "id": "fdce-1d2c-6e67-8cc9",
+                    "hidden": false,
+                    "typeId": "1293-38cf-ef83-e62e",
+                    "typeName": "Weapon/Attack",
+                    "characteristics": [
+                      {"name": "Range", "$text": "20\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+                      {"name": "Pierce", "$text": "-3", "typeId": "e4ce-b6bb-9469-1aa2"},
+                      {"name": "Rate of Attack", "$text": "3", "typeId": "3c88-853f-7944-514e"},
+                      {"name": "Qualities", "$text": "Heavy, Complex", "typeId": "461f-8df2-ad59-0fb1"},
+                      {"name": "Critical", "$text": "Decapitate", "typeId": "f818-5957-e275-643d"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tribal Cannon",
+                "id": "405a-3435-e01f-2f23",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 10}],
+                "profiles": [
+                  {
+                    "name": "Tribal Cannon",
+                    "id": "5f29-a067-597d-efc7",
+                    "hidden": false,
+                    "typeId": "1293-38cf-ef83-e62e",
+                    "typeName": "Weapon/Attack",
+                    "characteristics": [
+                      {"name": "Range", "$text": "18\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+                      {"name": "Pierce", "$text": "-2", "typeId": "e4ce-b6bb-9469-1aa2"},
+                      {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+                      {"name": "Qualities", "$text": "Hevy, Blast", "typeId": "461f-8df2-ad59-0fb1"},
+                      {"name": "Critical", "$text": "Brutal", "typeId": "f818-5957-e275-643d"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Weylyn Spirit Walkers",
+        "id": "4933-f5a3-33c3-c713",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "1a68-a1cb-e01b-5ad4", "hidden": false, "primary": true, "targetId": "8f95-e58c-8e6f-c637"},
+          {"name": "Beast", "id": "31b2-8ffa-a70e-dc83", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"},
+          {"name": "Male", "id": "9e4a-7182-d105-7d74", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+          {"name": "Spirit Walkers", "id": "1a98-e36a-1cd4-fd03", "hidden": false, "primary": false, "targetId": "b63f-d252-a07c-28cd"},
+          {"name": "Warrior Nation", "id": "a4a8-dd86-2fae-4ff4", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "infoLinks": [
+          {"name": "Moving Target", "id": "80b2-0bc1-ffab-de51", "hidden": false, "targetId": "5599-fcda-4891-9c0c", "type": "rule"},
+          {"name": "Sure Foot", "id": "f574-7141-b6d9-805f", "hidden": false, "targetId": "ae83-8c05-d149-20ab", "type": "rule"},
+          {"name": "Mettle", "id": "2fc4-8930-beb1-6dc2", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "Rapid", "id": "1e10-462b-ef0e-0898", "hidden": false, "targetId": "74e4-df7a-34f5-5500", "type": "rule"},
+          {"name": "Franzy", "id": "fd79-3694-58c6-c497", "hidden": false, "targetId": "b615-682b-256e-22d6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Spirit Blade",
+            "id": "26f5-bf81-5599-6dbd",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "1\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Parry, Attuned", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Decapitate", "typeId": "f818-5957-e275-643d"}
+            ]
+          },
+          {
+            "name": "Fanged Maw",
+            "id": "7fab-a41d-a95b-c562",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "B2B", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Brutal, Tangle", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Lethal", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Weylyn Spirit Walker",
+            "id": "f12f-1e20-6503-2fc6",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "categoryLinks": [
+              {"name": "Beast", "id": "37bf-2d76-722c-cf17", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"},
+              {"name": "Male", "id": "6006-4b65-7cda-c75c", "hidden": false, "primary": false, "targetId": "d97b-affd-828c-3f55"},
+              {"name": "Spirit Walkers", "id": "7b5f-6095-1d71-3260", "hidden": false, "primary": false, "targetId": "b63f-d252-a07c-28cd"},
+              {"name": "Support", "id": "527e-5aa6-21b1-bcea", "hidden": false, "primary": false, "targetId": "8f95-e58c-8e6f-c637"},
+              {"name": "Warrior Nation", "id": "6036-b2c0-5402-6195", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+            ],
+            "constraints": [
+              {
+                "id": "fd51-2dca-6807-533b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "dfe7-07e8-5970-eae7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 85}],
+            "profiles": [
+              {
+                "name": "Weylyn Spirit Walker",
+                "id": "1b03-4f97-67e6-2d68",
+                "hidden": false,
+                "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+                "typeName": "Model/Unit",
+                "characteristics": [
+                  {"name": "Quick", "$text": "7", "typeId": "4b8e-4447-83c6-521c"},
+                  {"name": "Mind", "$text": "5", "typeId": "fd77-4dfe-250e-b1e5"},
+                  {"name": "Limit", "$text": "2", "typeId": "5422-c4be-2581-afd7"},
+                  {"name": "Aim", "$text": "2", "typeId": "7c2d-731e-06f0-e290"},
+                  {"name": "Fight", "$text": "5", "typeId": "0317-4cf6-450a-f201"},
+                  {"name": "Grit", "$text": "5", "typeId": "2685-f334-855c-1d6b"},
+                  {"name": "Fortune", "$text": "0", "typeId": "f2bc-61e4-aa57-5ae4"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Great Elk",
+        "id": "35e5-1c2c-8bf5-88f6",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8e4f-fe4f-c3bc-09d3", "hidden": false, "primary": true, "targetId": "8f95-e58c-8e6f-c637"},
+          {"name": "Beast", "id": "42fe-509f-fea8-1a05", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"},
+          {"name": "Warrior Nation", "id": "47a1-48ae-bdb5-674f", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 145}],
+        "infoLinks": [
+          {"name": "Trailfinder", "id": "91d2-ce99-d9f9-a48f", "hidden": false, "targetId": "bf15-949d-58d8-8a65", "type": "rule"},
+          {"name": "Unstoppable", "id": "3cda-0db2-dc99-0c74", "hidden": false, "targetId": "85b8-ba26-ee7c-8bcd", "type": "rule"},
+          {"name": "Tough", "id": "1e65-9535-a66b-8627", "hidden": false, "targetId": "5fa2-a6c8-f14f-be92", "type": "rule"},
+          {"name": "Sure Foot", "id": "276a-b24b-f132-47f6", "hidden": false, "targetId": "ae83-8c05-d149-20ab", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Great Elk",
+            "id": "e58f-4889-ef90-e184",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "7", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "3", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "2", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "5", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "7", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "7", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fire Eagle",
+        "id": "0929-baa1-a145-558a",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2914-569d-1ac7-1d5b", "hidden": false, "primary": true, "targetId": "8f95-e58c-8e6f-c637"},
+          {"name": "Beast", "id": "eb07-31bc-5948-14a2", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"},
+          {"name": "Flight", "id": "6789-9651-2e9c-d93f", "hidden": false, "primary": false, "targetId": "241a-588b-b3d8-3ee0"},
+          {"name": "Warrior Nation", "id": "b1c3-1797-68bd-b61d", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 150}],
+        "infoLinks": [
+          {"name": "Agile", "id": "492d-c84d-496a-7f8d", "hidden": false, "targetId": "6dcc-7a1a-6c40-33de", "type": "rule"},
+          {"name": "Mettle", "id": "2dda-326c-ea36-832d", "hidden": false, "targetId": "5aad-1e66-ab3d-a35d", "type": "rule"},
+          {"name": "Shrouded", "id": "726e-ec14-78d2-b1a0", "hidden": false, "targetId": "c1e8-605f-6743-c739", "type": "rule"},
+          {"name": "Elusive", "id": "8a0a-9203-21b0-4352", "hidden": false, "targetId": "de21-b534-4efd-b9ce", "type": "rule"},
+          {"name": "Inspirational", "id": "ed63-1856-1cbe-5646", "hidden": false, "targetId": "2551-e4fc-3c56-3874", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Fire Eagle",
+            "id": "fbd3-e2c3-c64a-0a49",
+            "hidden": false,
+            "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+            "typeName": "Model/Unit",
+            "characteristics": [
+              {"name": "Quick", "$text": "6", "typeId": "4b8e-4447-83c6-521c"},
+              {"name": "Mind", "$text": "3", "typeId": "fd77-4dfe-250e-b1e5"},
+              {"name": "Limit", "$text": "2", "typeId": "5422-c4be-2581-afd7"},
+              {"name": "Aim", "$text": "5", "typeId": "7c2d-731e-06f0-e290"},
+              {"name": "Fight", "$text": "6", "typeId": "0317-4cf6-450a-f201"},
+              {"name": "Grit", "$text": "7", "typeId": "2685-f334-855c-1d6b"},
+              {"name": "Fortune", "typeId": "f2bc-61e4-aa57-5ae4"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hunting Wolves",
+        "id": "a49d-bd21-d5b5-7b0f",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "5201-f59d-eb73-e3ed", "hidden": false, "primary": true, "targetId": "8f95-e58c-8e6f-c637"},
+          {"name": "Warrior Nation", "id": "86df-c19f-2fb3-3392", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"},
+          {"name": "Beast", "id": "9b36-c24a-fb22-f971", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}],
+        "infoLinks": [
+          {"name": "Trailfinder", "id": "f32b-392b-b704-77cc", "hidden": false, "targetId": "bf15-949d-58d8-8a65", "type": "rule"},
+          {"name": "Sure Foot", "id": "06d9-99db-c578-afa0", "hidden": false, "targetId": "ae83-8c05-d149-20ab", "type": "rule"},
+          {"name": "Moving Target", "id": "3da4-8737-4d68-ce62", "hidden": false, "targetId": "5599-fcda-4891-9c0c", "type": "rule"},
+          {"name": "Agile", "id": "4a87-cae9-18fa-0c56", "hidden": false, "targetId": "6dcc-7a1a-6c40-33de", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Hunting Wolves",
+            "id": "b03a-1621-de9e-94d2",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "B2B", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "2", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Tangle", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Coordinated Attacks",
+            "id": "67f4-64bd-fc2e-bdd5",
+            "description": "If the target of this model's Strike Action is engaged with another member of this unit, it may reroll any failed Strike rolls without spending fortune",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Hunting Wolve",
+            "id": "496f-79b2-9e62-1079",
+            "collective": false,
+            "hidden": false,
+            "type": "model",
+            "categoryLinks": [
+              {"name": "Beast", "id": "70b9-aaa0-a786-81d8", "hidden": false, "primary": false, "targetId": "3ef8-317b-400f-742c"},
+              {"name": "Support", "id": "ac40-6efa-83af-75a8", "hidden": false, "primary": false, "targetId": "8f95-e58c-8e6f-c637"},
+              {"name": "Warrior Nation", "id": "bed7-3b1f-ce27-b321", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+            ],
+            "constraints": [
+              {
+                "id": "d318-4781-4a9f-d79b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "db9f-7e23-47a6-a319",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 6
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 45}],
+            "profiles": [
+              {
+                "name": "Hunting Wolve",
+                "id": "1b03-ade7-d175-ded0",
+                "hidden": false,
+                "typeId": "ca94a085-38f7-7c33-2d74-8ba3078641e0",
+                "typeName": "Model/Unit",
+                "characteristics": [
+                  {"name": "Quick", "$text": "7", "typeId": "4b8e-4447-83c6-521c"},
+                  {"name": "Mind", "$text": "3", "typeId": "fd77-4dfe-250e-b1e5"},
+                  {"name": "Limit", "$text": "2", "typeId": "5422-c4be-2581-afd7"},
+                  {"name": "Aim", "$text": "1", "typeId": "7c2d-731e-06f0-e290"},
+                  {"name": "Fight", "$text": "5", "typeId": "0317-4cf6-450a-f201"},
+                  {"name": "Grit", "$text": "4", "typeId": "2685-f334-855c-1d6b"},
+                  {"name": "Fortune", "$text": "0", "typeId": "f2bc-61e4-aa57-5ae4"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Greater Spirit Totem",
+        "id": "c556-6437-6e20-88f6",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "3dfa-c735-3ac8-74be", "hidden": false, "primary": true, "targetId": "5f19-88bf-ae56-72fb"},
+          {"name": "Warrior Nation", "id": "13b7-2388-cd87-e31f", "hidden": false, "primary": false, "targetId": "b91f-8e84-239b-ebf8"}
+        ],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}]
+      },
+      {
+        "name": "Small Spirit Totem",
+        "id": "9fc2-fbb7-7b59-eed4",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "dca4-3ed4-10f0-1f68", "hidden": false, "primary": true, "targetId": "5f19-88bf-ae56-72fb"}],
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 0}]
+      }
+    ],
+    "sharedRules": [
+      {"name": "Frenzy", "id": "b615-682b-256e-22d6", "hidden": false},
+      {"name": "Child of the Great Spirit", "id": "4430-a116-a7b8-f354", "hidden": false},
+      {"name": "Bounding Strike", "id": "13ff-e18d-8a27-63b4", "hidden": false},
+      {"name": "Dances with Wolves", "id": "64f9-e385-7f3b-5f1b", "hidden": false},
+      {
+        "name": "Soul Strike",
+        "id": "5c1b-17e9-44bc-a132",
+        "description": "The unit cannot be made to re-roll successful Aim or Fight Checks in Combat Actions.",
+        "hidden": false
+      },
+      {"name": "Invigorate", "id": "5ba6-c86d-95a4-aa61", "hidden": false}
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Chace Rifle",
+        "id": "3ca1-a701-82cf-4f58",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 10}],
+        "profiles": [
+          {
+            "name": "Chace Rifle",
+            "id": "5163-48e6-d071-1e17",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "18", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Refined", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Critical", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plainswalker Crossbow",
+        "id": "aa34-3c65-be75-d44b",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 20}],
+        "profiles": [
+          {
+            "name": "Plainswalker Crossbow",
+            "id": "59dc-d3a2-6f89-4d51",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-3", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Decapitate", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gatling Gun",
+        "id": "5ccb-c29d-975a-4129",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 20}],
+        "profiles": [
+          {
+            "name": "Gatling Gun",
+            "id": "606c-f9f2-8628-a811",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "15\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-2", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "3", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Heavy, Brutal,Linked", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "id": "1d77-f257-4230-e53f",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 15}],
+        "profiles": [
+          {
+            "name": "Shotgun",
+            "id": "b428-df32-d172-9b44",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "-", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Torrent", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ketchum Grenade",
+        "id": "fad0-7b66-236e-2bad",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 10}],
+        "profiles": [
+          {
+            "name": "Ketchum Grenade",
+            "id": "1e46-aa0f-02cc-fa6d",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "6\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-2", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Stun, Indirect, Blast", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spirit Bow",
+        "id": "1699-53af-63ed-5773",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "c31b-12c2-3f65-9d8f", "value": 20}],
+        "profiles": [
+          {
+            "name": "Spirit Bow",
+            "id": "b03b-681b-6948-65c7",
+            "hidden": false,
+            "typeId": "1293-38cf-ef83-e62e",
+            "typeName": "Weapon/Attack",
+            "characteristics": [
+              {"name": "Range", "$text": "15\"", "typeId": "cd5a-721a-cd4b-ca7a"},
+              {"name": "Pierce", "$text": "-1", "typeId": "e4ce-b6bb-9469-1aa2"},
+              {"name": "Rate of Attack", "$text": "1", "typeId": "3c88-853f-7944-514e"},
+              {"name": "Qualities", "$text": "Attuned", "typeId": "461f-8df2-ad59-0fb1"},
+              {"name": "Critical", "$text": "Decapitate", "typeId": "f818-5957-e275-643d"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Warrior Nation Faction Armory",
+        "id": "f197-3924-da3e-e2ba",
+        "collective": false,
+        "hidden": false,
+        "entryLinks": [
+          {"name": "Plainswalker Crossbow", "id": "2c40-badd-c047-3193", "hidden": false, "targetId": "aa34-3c65-be75-d44b", "type": "selectionEntry"},
+          {"name": "Gatling Gun", "id": "f936-a057-87bb-8c49", "hidden": false, "targetId": "5ccb-c29d-975a-4129", "type": "selectionEntry"},
+          {"name": "Chace Rifle", "id": "fdf7-7248-500d-906d", "hidden": false, "targetId": "3ca1-a701-82cf-4f58", "type": "selectionEntry"},
+          {"name": "Ketchum Grenade", "id": "cdbd-a7d9-8223-4414", "hidden": false, "targetId": "fad0-7b66-236e-2bad", "type": "selectionEntry"},
+          {"name": "Spirit Bow", "id": "95ec-2862-58ce-8214", "hidden": false, "targetId": "1699-53af-63ed-5773", "type": "selectionEntry"},
+          {"name": "Shotgun", "id": "e514-8cbe-c0fa-be58", "hidden": false, "targetId": "1d77-f257-4230-e53f", "type": "selectionEntry"}
+        ]
+      }
+    ]
+  }
+}
